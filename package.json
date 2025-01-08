@@ -1,4 +1,12 @@
 {
   "name": "decemberwave.com",
-  "packageManager": "yarn@4.5.0"
+  "packageManager": "yarn@4.6.0",
+  "dependencies": {
+    "astro": "^5.1.3"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  }
 }
